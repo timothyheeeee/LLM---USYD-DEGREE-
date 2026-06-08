@@ -35,8 +35,17 @@ This isn't a standard, single-prompt chatbot. It is built as a state machine usi
 
 If you want to run this agent locally, follow these steps.
 
-### Prerequisites
-1. Ensure you have Python 3.9+ installed.
-2. Install [Ollama](https://ollama.com/) and pull the Llama 3 model by running:
+## Prerequisites
+
+Before running this project, ensure you have the following installed and configured on your local machine:
+
+### 1. System Requirements
+* **Python:** Version 3.9 or higher.
+* **Operating System:** Windows, macOS, or Linux.
+
+### 2. Local LLM Environment (Ollama)
+This project relies on [Ollama](https://ollama.com/) to run the large language models locally. 
+1. Download and install Ollama from their official website.
+2. Pull the required model by running the following command in your terminal:
    ```bash
-   ollama run llama3
+   ollama pull llama3
